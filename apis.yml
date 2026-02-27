@@ -1,0 +1,95 @@
+name: AutoCAD API
+description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities
+image: https://www.autodesk.com/products/autocad/overview
+tags:
+- CAD
+- Design
+- Drawing
+- Architecture
+- Engineering
+- 3D Modeling
+created: '2024'
+modified: '2024'
+url: https://www.autodesk.com/developer-network/platform-technologies/autocad
+specificationVersion: '0.18'
+apis:
+- name: AutoCAD API
+  description: Core API for AutoCAD automation, drawing manipulation, and entity management
+  image: https://www.autodesk.com/products/autocad/overview
+  humanURL: https://www.autodesk.com/developer-network/platform-technologies/autocad
+  baseURL: https://developer.api.autodesk.com
+  tags:
+  - CAD
+  - Automation
+  - Drawing
+  - Entities
+  properties:
+  - type: Documentation
+    url: https://help.autodesk.com/view/OARX/2024/ENU/
+  - type: OpenAPI
+    url: https://developer.api.autodesk.com/autocad/openapi.json
+  - type: Authentication
+    url: https://forge.autodesk.com/en/docs/oauth/v2/reference/http/
+  contact:
+  - FN: Autodesk Developer Support
+    email: forge.help@autodesk.com
+    url: https://forge.autodesk.com/en/support/get-help/
+- name: AutoCAD I/O API
+  description: Cloud-based API for processing AutoCAD drawings without AutoCAD installation
+  image: https://www.autodesk.com/products/autocad/overview
+  humanURL: https://forge.autodesk.com/en/docs/design-automation/v3/developers_guide/overview/
+  baseURL: https://developer.api.autodesk.com/da/us-east/v3
+  tags:
+  - Cloud
+  - Automation
+  - Batch Processing
+  - Design Automation
+  properties:
+  - type: Documentation
+    url: https://forge.autodesk.com/en/docs/design-automation/v3/
+  - type: API Reference
+    url: https://forge.autodesk.com/en/docs/design-automation/v3/reference/http/
+  - type: Tutorials
+    url: https://forge.autodesk.com/en/docs/design-automation/v3/tutorials/
+  contact:
+  - FN: Autodesk Forge Support
+    email: forge.help@autodesk.com
+    url: https://forge.autodesk.com/en/support/
+- name: AutoCAD Data Management API
+  description: API for managing AutoCAD files, versions, and collaboration workflows
+  image: https://www.autodesk.com/products/autocad/overview
+  humanURL: https://forge.autodesk.com/en/docs/data/v2/developers_guide/overview/
+  baseURL: https://developer.api.autodesk.com/data/v1
+  tags:
+  - File Management
+  - Version Control
+  - Collaboration
+  - Storage
+  properties:
+  - type: Documentation
+    url: https://forge.autodesk.com/en/docs/data/v2/
+  - type: API Reference
+    url: https://forge.autodesk.com/en/docs/data/v2/reference/http/
+  - type: Getting Started
+    url: https://forge.autodesk.com/en/docs/data/v2/tutorials/
+common:
+- type: Portal
+  url: https://forge.autodesk.com/
+- type: Authentication
+  url: https://forge.autodesk.com/en/docs/oauth/v2/
+- type: SDKs
+  url: https://forge.autodesk.com/en/docs/oauth/v2/developers_guide/sdks/
+- type: Status
+  url: https://health.autodesk.com/
+- type: Terms of Service
+  url: https://forge.autodesk.com/en/docs/terms-of-service/
+- type: Privacy Policy
+  url: https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement
+- type: Blog
+  url: https://forge.autodesk.com/blog
+- type: Support
+  url: https://forge.autodesk.com/en/support/
+maintainers:
+- FN: Autodesk
+  email: forge.help@autodesk.com
+  url: https://www.autodesk.com/
