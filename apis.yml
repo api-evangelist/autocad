@@ -1,4 +1,4 @@
-name: AutoCAD API
+name: AutoCAD
 description: APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
 image: https://www.autodesk.com/products/autocad/overview
 tags:
