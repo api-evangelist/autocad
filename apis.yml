@@ -159,6 +159,8 @@ apis:
         email: forge.help@autodesk.com
         url: https://aps.autodesk.com/get-help
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/showcase/autodeskautocad
   - type: Portal
     url: https://aps.autodesk.com/
   - type: Documentation
