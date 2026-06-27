@@ -169,10 +169,10 @@ common:
     url: https://tutorials.autodesk.io/
   - type: Authentication
     url: https://forge.autodesk.com/en/docs/oauth/v2/
-  - type: SDK
+  - type: SDKs
     url: https://github.com/autodesk-platform-services/aps-sdk-node
     title: Node.js SDK
-  - type: SDK
+  - type: SDKs
     url: https://github.com/autodesk-platform-services/aps-sdk-net
     title: .NET SDK
   - type: Blog
@@ -183,7 +183,7 @@ common:
     url: https://forge.autodesk.com/en/support/
   - type: StackOverflow
     url: https://stackoverflow.com/questions/tagged/autodesk-forge
-  - type: SignUp
+  - type: Signup
     url: https://aps.autodesk.com/
   - type: Login
     url: https://manage.autodesk.com/home
