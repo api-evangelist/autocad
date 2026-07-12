@@ -159,6 +159,11 @@ apis:
         email: forge.help@autodesk.com
         url: https://aps.autodesk.com/get-help
 common:
+  - type: DomainSecurity
+    url: security/autocad-domain-security.yml
+  - name: Agent Skills
+    url: https://github.com/autodesk-platform-services/skills
+    type: AgentSkills
   - type: LinkedIn
     url: https://www.linkedin.com/showcase/autodeskautocad
   - type: Portal
