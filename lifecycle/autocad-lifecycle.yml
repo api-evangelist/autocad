@@ -1,0 +1,38 @@
+generated: '2026-06-20'
+method: searched
+source: https://aps.autodesk.com/ + https://health.autodesk.com/
+versioning:
+  scheme: uri-path
+  note: >-
+    Each APS service is independently versioned in the URI path
+    (Authentication v2, Data Management v1/v2, Model Derivative v2,
+    Design Automation v3, Webhooks v1).
+  services:
+    - name: Authentication API
+      version: v2
+    - name: Data Management API
+      version: v1
+    - name: Model Derivative API
+      version: v2
+    - name: Design Automation API
+      version: v3
+    - name: Webhooks API
+      version: v1
+deprecation:
+  policy: >-
+    Autodesk announces API deprecations and breaking changes through the APS
+    Product Updates feed and per-service change history pages ahead of retirement.
+  announcements: https://aps.autodesk.com/topics/product-updates
+sla:
+  note: >-
+    APS availability and incident history are published on the Autodesk Health
+    status page; formal SLA terms are governed by the APS Web Services API Terms.
+  terms: https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/forge-platform-web-services-api-terms-of-service
+status_page: https://health.autodesk.com/
+changelogs:
+  - name: APS Product Updates
+    url: https://aps.autodesk.com/topics/product-updates
+  - name: Design Automation change history
+    url: https://aps.autodesk.com/en/docs/design-automation/v3/change_history/acad_release_notes
+  - name: Model Derivative changelog
+    url: https://aps.autodesk.com/en/docs/model-derivative/v2/change_history/changelog

@@ -1,0 +1,24 @@
+# Our security.txt file
+# This file contains information for security researchers on how to report security vulnerabilities.
+
+# Report product vulnerabilities 
+# For example: AutoCAD, Revit, ACC, etc.
+Contact: mailto:psirt@autodesk.com
+
+# PSIRT GPG key
+Encryption: https://www.autodesk.com/trust/security/pgp-key
+
+# General or all other security inquiries
+Contact: mailto:security@autodesk.com
+Contact: https://www.autodesk.com/trust/security
+
+Canonical: https://www.autodesk.com/.well-known/security.txt
+
+# The language
+Preferred-Languages: en
+
+# Our security policy
+Policy: https://www.autodesk.com/trust/security/vulnerability-disclosure-policy
+
+# Expiration date
+Expires: 2026-12-31T23:59:00.000Z

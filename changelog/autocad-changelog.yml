@@ -1,0 +1,35 @@
+generated: '2026-06-20'
+method: searched
+source: https://aps.autodesk.com/topics/product-updates
+scheme: >-
+  Per-service dated change-history pages, plus a cross-platform APS Product
+  Updates feed. No single global semantic version; each API is versioned in its URI path.
+feeds:
+  - name: APS Product Updates
+    url: https://aps.autodesk.com/topics/product-updates
+  - name: Design Automation for AutoCAD release notes
+    url: https://aps.autodesk.com/en/docs/design-automation/v3/change_history/acad_release_notes
+  - name: Model Derivative changelog
+    url: https://aps.autodesk.com/en/docs/model-derivative/v2/change_history/changelog
+recent_highlights:
+  - date: '2026-06-26'
+    area: Data Management / OSS
+    highlight: Transfer bucket ownership between APS applications.
+  - date: '2026-06-23'
+    area: APS / AI
+    highlight: Autodesk Assistant - new conversational way to work with APS.
+  - date: '2026-06-21'
+    area: Design Automation
+    highlight: APS quota notifications give more visibility and control over usage.
+  - date: '2026-06-16'
+    area: Design Automation (Revit)
+    highlight: Revit automation jobs start faster during peak usage.
+  - date: '2026-05-07'
+    area: SDKs
+    highlight: Secure Service Account SDKs now in beta for .NET and TypeScript.
+  - date: '2026-04-30'
+    area: Content Catalog API
+    highlight: Introduced the Content Catalog API in public beta.
+note: >-
+  Highlights are drawn from the dated APS blog/product-update posts mirrored in
+  this repo's blogs/ directory; the live feeds above are the source of truth.

@@ -1,0 +1,95 @@
+generated: '2026-06-20'
+method: searched
+source: >-
+  npm (@aps_sdk scope), PyPI, NuGet, and the autodesk-platform-services GitHub org
+notes: >-
+  Autodesk Platform Services (APS, formerly Forge) ships modular first-party SDKs.
+  The current Node.js and .NET SDKs are split per-service under the @aps_sdk npm
+  scope and the Autodesk.* NuGet namespace; forge-apis is the legacy Node SDK.
+packages:
+  # ---- Node.js / npm (@aps_sdk modular SDK) ----
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/autodesk-sdkmanager"
+    version: 1.0.1
+    url: https://www.npmjs.com/package/@aps_sdk/autodesk-sdkmanager
+    install: npm install @aps_sdk/autodesk-sdkmanager
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/authentication"
+    version: 1.0.1
+    url: https://www.npmjs.com/package/@aps_sdk/authentication
+    install: npm install @aps_sdk/authentication
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/oss"
+    version: 1.3.3
+    url: https://www.npmjs.com/package/@aps_sdk/oss
+    install: npm install @aps_sdk/oss
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/data-management"
+    version: 1.1.4
+    url: https://www.npmjs.com/package/@aps_sdk/data-management
+    install: npm install @aps_sdk/data-management
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/model-derivative"
+    version: 1.2.1
+    url: https://www.npmjs.com/package/@aps_sdk/model-derivative
+    install: npm install @aps_sdk/model-derivative
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@aps_sdk/webhooks"
+    version: 1.4.0
+    url: https://www.npmjs.com/package/@aps_sdk/webhooks
+    install: npm install @aps_sdk/webhooks
+    official: true
+  - language: javascript
+    registry: npm
+    name: forge-apis
+    version: 0.9.12
+    url: https://www.npmjs.com/package/forge-apis
+    install: npm install forge-apis
+    official: true
+    deprecated: true
+    note: Legacy Forge Node.js SDK; superseded by the modular @aps_sdk packages.
+    repo: https://github.com/autodesk-platform-services/aps-sdk-node
+  # ---- Python / PyPI ----
+  - language: python
+    registry: pypi
+    name: aps-automation-sdk
+    version: 0.1.2
+    url: https://pypi.org/project/aps-automation-sdk/
+    install: pip install aps-automation-sdk
+    official: true
+    note: Wraps the APS Design Automation API for Revit and AutoCAD cloud automation.
+  - language: python
+    registry: pypi
+    name: autodesk-forge-sdk
+    version: 0.1.2
+    url: https://pypi.org/project/autodesk-forge-sdk/
+    install: pip install autodesk-forge-sdk
+    official: false
+    note: Community-maintained Python wrapper for APS/Forge APIs.
+  # ---- .NET / NuGet ----
+  - language: dotnet
+    registry: nuget
+    name: Autodesk.SdkManager
+    url: https://www.nuget.org/packages/Autodesk.SdkManager
+    install: dotnet add package Autodesk.SdkManager
+    official: true
+    repo: https://github.com/autodesk-platform-services/aps-sdk-net
+  - language: dotnet
+    registry: nuget
+    name: Autodesk.Authentication
+    version: 2.0.1
+    url: https://www.nuget.org/packages/Autodesk.Authentication
+    install: dotnet add package Autodesk.Authentication
+    official: true
+    repo: https://github.com/autodesk-platform-services/aps-sdk-net

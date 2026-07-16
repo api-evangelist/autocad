@@ -1,0 +1,30 @@
+generated: '2026-06-20'
+method: searched
+source: live probes of Autodesk Platform Services hosts
+hosts:
+  - host: https://developer.api.autodesk.com
+    documents:
+      - path: /.well-known/openid-configuration
+        status: 200
+        file: autocad-openid-configuration.json
+      - path: /.well-known/oauth-authorization-server
+        status: 200
+        file: autocad-oauth-authorization-server.json
+        note: byte-identical to openid-configuration
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://www.autodesk.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: autocad-security.txt
+        note: RFC 9116 security.txt; Autodesk PSIRT, canonical www.autodesk.com
+  - host: https://aps.autodesk.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 406
+        note: no security.txt on the APS portal host; canonical lives on www.autodesk.com

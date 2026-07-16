@@ -8,7 +8,7 @@ type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://www.autodesk.com/developer-network/platform-technologies/autocad
 created: '2024-01-01'
-modified: '2026-04-18'
+modified: '2026-06-20'
 specificationVersion: '0.19'
 tags:
   - 3D Modeling
@@ -161,6 +161,32 @@ apis:
 common:
   - type: DomainSecurity
     url: security/autocad-domain-security.yml
+  - type: VulnerabilityDisclosure
+    url: security/autocad-vulnerability-disclosure.yml
+  - type: TrustCenter
+    url: security/autocad-trust-center.yml
+  - type: Packages
+    url: packages/autocad-packages.yml
+  - type: WellKnown
+    url: well-known/autocad-well-known.yml
+  - type: SecurityTxt
+    url: well-known/autocad-security.txt
+  - type: LLMsTxt
+    url: llms/autocad-llms.txt
+  - type: OAuthScopes
+    url: scopes/autocad-scopes.yml
+  - type: Authentication
+    url: authentication/autocad-authentication.yml
+  - type: MCPServer
+    url: mcp/autocad-mcp.yml
+  - type: Conformance
+    url: conformance/autocad-conformance.yml
+  - type: Lifecycle
+    url: lifecycle/autocad-lifecycle.yml
+  - type: ChangeLog
+    url: changelog/autocad-changelog.yml
+  - type: Components
+    url: components/autocad-components.yml
   - name: Agent Skills
     url: https://github.com/autodesk-platform-services/skills
     type: AgentSkills

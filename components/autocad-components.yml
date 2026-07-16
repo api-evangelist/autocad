@@ -1,0 +1,24 @@
+generated: '2026-06-20'
+method: searched
+source: https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/
+notes: >-
+  Autodesk Platform Services ships a first-party, client-side embeddable UI
+  component - the APS Viewer SDK - distinct from the server-side SDKs in
+  packages/. It renders 2D/3D models (SVF/SVF2 derivatives produced by the Model
+  Derivative API) directly in the browser.
+components:
+  - family: Viewer
+    name: APS Viewer SDK (LMV)
+    kind: web-component
+    version: v7
+    description: >-
+      WebGL-based 2D/3D viewer for CAD/BIM models translated to SVF/SVF2. Loaded
+      from Autodesk's CDN; instantiated as Autodesk.Viewing.GuiViewer3D against a
+      DOM container.
+    docs: https://aps.autodesk.com/en/docs/viewer/v7/developers_guide/overview/
+    loaders:
+      - css: https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.min.css
+        js: https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.min.js
+    extensions: >-
+      Ships an extension framework (measure, markup, section, model-structure,
+      properties panels) and supports custom extensions.

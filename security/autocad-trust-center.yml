@@ -1,0 +1,29 @@
+generated: '2026-06-20'
+method: searched
+probe: true
+url: https://www.autodesk.com/trust/overview
+pages:
+  - https://www.autodesk.com/trust/overview
+  - https://www.autodesk.com/trust/compliance
+  - https://www.autodesk.com/trust/security
+  - https://trustportal.autodesk.com/
+certifications:
+  - SOC 2
+  - SOC 3
+  - ISO 27001
+  - ISO 27017
+  - ISO 27018
+  - PCI DSS
+  - HIPAA
+  - GDPR
+  - FedRAMP
+  - CSA STAR Level 1
+notes: >-
+  ISO 27017 and ISO 27018 are covered under the ISO 27001 audit certification.
+  Autodesk publishes SOC 3 reports publicly; the full SOC 2 report is available
+  to customers on request via the Autodesk Trust Portal.
+evidence:
+  - source: https://www.autodesk.com/trust/compliance
+    keywords: [soc 2, soc 3, iso 27001, iso 27017, iso 27018, pci, hipaa, gdpr, fedramp, csa star]
+  - source: https://damassets.autodesk.net/content/dam/autodesk/www/trust/compliance/images/F_568342A-1A_AutodeskInc_SOC3.pdf
+    keywords: [soc 3]

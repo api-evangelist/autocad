@@ -1,0 +1,43 @@
+generated: '2026-06-20'
+method: searched
+source: >-
+  https://developer.api.autodesk.com/.well-known/openid-configuration +
+  https://aps.autodesk.com/en/docs/oauth/v2/
+standards:
+  - id: oauth2
+    conforms: true
+    evidence: >-
+      APS Authentication v2 exposes authorization_code, client_credentials, and
+      refresh_token grant types (2LO/3LO) with client_secret_basic/post auth.
+  - id: oidc
+    conforms: true
+    evidence: >-
+      Publishes /.well-known/openid-configuration with issuer, jwks_uri, userinfo,
+      id_token RS256, and the openid scope.
+  - id: pkce
+    conforms: true
+    evidence: code_challenge_methods_supported includes S256.
+  - id: oauth2-token-introspection
+    conforms: true
+    evidence: introspection_endpoint (RFC 7662) present in discovery document.
+  - id: oauth2-token-revocation
+    conforms: true
+    evidence: revocation_endpoint (RFC 7009) present in discovery document.
+  - id: rfc8414-oauth-authorization-server-metadata
+    conforms: true
+    evidence: /.well-known/oauth-authorization-server returns 200.
+  - id: rfc9116-security-txt
+    conforms: true
+    evidence: www.autodesk.com/.well-known/security.txt (Contact/Policy/Expires) present.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: >-
+      APS APIs return service-specific JSON error envelopes, not
+      application/problem+json.
+  - id: webhooks
+    conforms: true
+    evidence: Dedicated Webhooks API (v1) for event-driven notifications.
+  - id: fhir-r4
+    conforms: false
+  - id: scim
+    conforms: false

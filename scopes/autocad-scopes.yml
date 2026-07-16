@@ -1,0 +1,63 @@
+generated: '2026-06-20'
+method: searched
+source: https://developer.api.autodesk.com/.well-known/openid-configuration
+docs: https://aps.autodesk.com/en/docs/oauth/v2/developers_guide/scopes/
+schemes:
+  - name: OAuth2
+    type: oauth2
+    source: https://developer.api.autodesk.com/.well-known/openid-configuration
+    flows:
+      - flow: authorizationCode
+        authorizationUrl: https://developer.api.autodesk.com/authentication/v2/authorize
+        tokenUrl: https://developer.api.autodesk.com/authentication/v2/token
+      - flow: clientCredentials
+        tokenUrl: https://developer.api.autodesk.com/authentication/v2/token
+scopes:
+  - scope: user-profile:read
+    description: Read the end user's profile data (deprecated alias; prefer user:read).
+    flows: [authorizationCode]
+  - scope: user:read
+    description: Read the end user's profile data.
+    flows: [authorizationCode]
+  - scope: user:write
+    description: Create, update, and delete the end user's profile data.
+    flows: [authorizationCode]
+  - scope: viewables:read
+    description: Read viewable (translated derivative) data for the end user.
+    flows: [authorizationCode, clientCredentials]
+  - scope: data:read
+    description: Read documents, folders, item versions, and other data the user can access.
+    flows: [authorizationCode, clientCredentials]
+  - scope: data:write
+    description: Create, update, and delete data the user can access.
+    flows: [authorizationCode, clientCredentials]
+  - scope: data:create
+    description: Create new data (e.g. new folders, items) in a project or hub.
+    flows: [authorizationCode, clientCredentials]
+  - scope: data:search
+    description: Search across the end user's data.
+    flows: [authorizationCode, clientCredentials]
+  - scope: bucket:create
+    description: Create an OSS (Object Storage Service) bucket.
+    flows: [authorizationCode, clientCredentials]
+  - scope: bucket:read
+    description: Read the metadata and objects of an OSS bucket.
+    flows: [authorizationCode, clientCredentials]
+  - scope: bucket:update
+    description: Update an OSS bucket (e.g. change access policies).
+    flows: [authorizationCode, clientCredentials]
+  - scope: bucket:delete
+    description: Delete an OSS bucket.
+    flows: [authorizationCode, clientCredentials]
+  - scope: code:all
+    description: Author or execute code (e.g. Design Automation AppBundles and Activities) on the user's behalf.
+    flows: [authorizationCode, clientCredentials]
+  - scope: account:read
+    description: Read account/team data (BIM 360 / ACC administration).
+    flows: [authorizationCode, clientCredentials]
+  - scope: account:write
+    description: Create, update, and delete account/team data (BIM 360 / ACC administration).
+    flows: [authorizationCode, clientCredentials]
+  - scope: openid
+    description: OpenID Connect - obtain an id_token identifying the end user.
+    flows: [authorizationCode]
