@@ -5,7 +5,20 @@ description: >-
   and automation capabilities through Autodesk Platform Services (APS, formerly Forge)
   and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autocad.png
 url: https://www.autodesk.com/developer-network/platform-technologies/autocad
 created: '2024-01-01'
 modified: '2026-06-20'
