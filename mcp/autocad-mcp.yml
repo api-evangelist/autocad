@@ -2,31 +2,36 @@ generated: '2026-06-20'
 method: searched
 status: published
 source: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
-notes: >-
-  Autodesk publishes official, open-source reference Model Context Protocol (MCP)
-  servers for Autodesk Platform Services (APS), plus an "Autodesk MCP Servers"
-  program and marketplace publisher guide. The Node.js reference server is
-  self-hosted (stdio transport) and uses Secure Service Accounts (SSA) for
-  fine-grained access control to APS / ACC / BIM 360 data. There is no single
-  Autodesk-hosted remote MCP endpoint; servers are self-deployed.
+notes: Autodesk publishes official, open-source reference Model Context Protocol (MCP) servers for Autodesk
+  Platform Services (APS), plus an "Autodesk MCP Servers" program and marketplace publisher guide. The
+  Node.js reference server is self-hosted (stdio transport) and uses Secure Service Accounts (SSA) for
+  fine-grained access control to APS / ACC / BIM 360 data. There is no single Autodesk-hosted remote MCP
+  endpoint; servers are self-deployed.
 servers:
-  - name: aps-mcp-server-nodejs
-    official: true
-    transport: stdio
-    repo: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
-    tutorial: https://autodesk-platform-services.github.io/aps-mcp-server-nodejs/
-    auth: Secure Service Accounts (SSA) + 2LO
-    description: >-
-      Node.js reference MCP server exposing APS data (Autodesk Construction Cloud
-      projects, issues, documents) with SSA-based fine-grained access control.
-  - name: aps-aecdm-mcp-dotnet
-    official: true
-    transport: stdio
-    auth: 3LO
-    description: >-
-      .NET reference MCP server for the AEC Data Model API; stateful, stores tokens
-      in global state and drives a locally-spawned APS Viewer over WebSockets.
+- name: aps-mcp-server-nodejs
+  official: true
+  transport: stdio
+  repo: https://github.com/autodesk-platform-services/aps-mcp-server-nodejs
+  tutorial: https://autodesk-platform-services.github.io/aps-mcp-server-nodejs/
+  auth: Secure Service Accounts (SSA) + 2LO
+  description: Node.js reference MCP server exposing APS data (Autodesk Construction Cloud projects, issues,
+    documents) with SSA-based fine-grained access control.
+- name: aps-aecdm-mcp-dotnet
+  official: true
+  transport: stdio
+  auth: 3LO
+  description: .NET reference MCP server for the AEC Data Model API; stateful, stores tokens in global
+    state and drives a locally-spawned APS Viewer over WebSockets.
 program:
   autodesk_mcp_servers: https://www.autodesk.com/solutions/autodesk-ai/autodesk-mcp-servers
   marketplace_publisher_guide: https://aps.autodesk.com/marketplace/mcp-publisher-guide
   blog: https://aps.autodesk.com/blog/building-custom-mcp-servers-autodesk-platform-services
+deployment:
+  mode: none
+  endpoint: https://autodesk-platform-services.github.io/aps-mcp-server-nodejs/
+  verified: probed
+  probe: dead
+  note: the endpoint this manifest claimed did not answer; recorded as none rather than deleted so the
+    claim stays auditable
+  checked: '2026-08-12'
+  source: catalog MCP census
