@@ -22,7 +22,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autocad.pn
 url: https://www.autodesk.com/developer-network/platform-technologies/autocad
 created: '2024-01-01'
 modified: '2026-06-20'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 tags:
   - 3D Modeling
   - Architecture
