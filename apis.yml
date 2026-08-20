@@ -134,6 +134,11 @@ apis:
     humanURL: https://aps.autodesk.com/developer/overview/webhooks-api
     baseURL: https://developer.api.autodesk.com/webhooks/v1
     tags:
+      - Event
+      - Notification
+      - Real-Time
+      - Webhook
+    tags_raw:
       - Events
       - Notifications
       - Real-Time
@@ -158,6 +163,10 @@ apis:
     humanURL: https://aps.autodesk.com/developer/overview/authentication-api
     baseURL: https://developer.api.autodesk.com/authentication/v2
     tags:
+      - Authentication
+      - Authorization
+      - Security
+    tags_raw:
       - Authentication
       - Authorization
       - OAuth
