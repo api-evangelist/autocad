@@ -5,6 +5,17 @@ description: >-
   and automation capabilities through Autodesk Platform Services (APS, formerly Forge)
   and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: self-serve
