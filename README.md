@@ -1,4 +1,4 @@
-# AutoCAD (autocad)
+# AutoCAD
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,107 +66,103 @@
 
 APIs for Autodesk AutoCAD, providing programmatic access to CAD design, drawing, and automation capabilities through Autodesk Platform Services (APS, formerly Forge) and desktop development environments including AutoLISP, ObjectARX, .NET, and JavaScript.
 
-**URL:** [https://www.autodesk.com/developer-network/platform-technologies/autocad](https://www.autodesk.com/developer-network/platform-technologies/autocad)
+**Areas:** 3D Modeling · Architecture · CAD · Design · Drawing · Engineering
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## AutoCAD on APIs.io
 
-## Tags:
+Everything profiled for AutoCAD is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autocad/](https://apis.io/providers/autocad/)** — or go straight to one of the APIs or properties below.
 
- - 3D Modeling, Architecture, CAD, Design, Drawing, Engineering
+### APIs (6)
 
-## Timestamps
+- [AutoCAD API](https://apis.io/apis/autocad/autocad-api/) — Core API for AutoCAD automation, drawing manipulation, and entity management.
+- [AutoCAD Design Automation API](https://apis.io/apis/autocad/design-automation-api/) — Cloud-based API that enables running AutoCAD scripts, AutoLISP routines, and custom add-ins in the cloud to automate drawing creation, modification, and…
+- [AutoCAD Data Management API](https://apis.io/apis/autocad/data-management-api/) — API for managing AutoCAD files, versions, and collaboration workflows.
+- [AutoCAD Model Derivative API](https://apis.io/apis/autocad/model-derivative-api/) — API for translating AutoCAD design files into formats like SVF and SVF2 for rendering in the Viewer SDK, extracting metadata, object hierarchy, properties,…
+- [AutoCAD Webhooks API](https://apis.io/apis/autocad/webhooks-api/) — API enabling applications to listen for and receive notifications when specific events occur in AutoCAD data and workflows, supporting event-driven…
+- [AutoCAD Authentication API](https://apis.io/apis/autocad/authentication-api/) — OAuth 2.0-based authentication API for securing access to AutoCAD and Autodesk Platform Services APIs, supporting both 2-legged and 3-legged authentication…
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-18
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### AutoCAD API
-Core API for AutoCAD automation, drawing manipulation, and entity management.
+#### MCP servers (1)
 
-**Human URL:** [https://www.autodesk.com/developer-network/platform-technologies/autocad](https://www.autodesk.com/developer-network/platform-technologies/autocad)
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags:
+- [autocad-mcp.yml](https://apis.io/servers/autocad/autocad-mcp-yml/)
 
- - Automation, CAD, Drawing, Entities
+#### Agent skills (5)
 
-### AutoCAD Design Automation API
-Cloud-based API that enables running AutoCAD scripts and custom add-ins in the cloud for batch processing at scale.
+Agent skills built on the API.
 
-**Human URL:** [https://aps.autodesk.com/apis-and-services/autocad-automation-api](https://aps.autodesk.com/apis-and-services/autocad-automation-api)
+- [acad-arx-wizard](https://apis.io/agent-skills/autocad/acad-arx-wizard/)
+- [acad-cuix-builder](https://apis.io/agent-skills/autocad/acad-cuix-builder/)
+- [acad-dotnet](https://apis.io/agent-skills/autocad/acad-dotnet/)
+- [aps-docs-portal](https://apis.io/agent-skills/autocad/aps-docs-portal/)
+- [aps-mcp-server-gen](https://apis.io/agent-skills/autocad/aps-mcp-server-gen/)
 
-#### Tags:
+#### Security (4)
 
- - AutoLISP, Batch Processing, Cloud, Design Automation, Scripting
+Authentication, trust centre, and vulnerability disclosure.
 
-### AutoCAD Data Management API
-API for managing AutoCAD files, versions, and collaboration workflows.
+- [Autocad Authentication](https://apis.io/security/autocad/autocad-authentication/)
+- [Autocad Domain Security](https://apis.io/security/autocad/autocad-domain-security/)
+- [Autocad Trust Center](https://apis.io/security/autocad/autocad-trust-center/)
+- [Autocad Vulnerability Disclosure](https://apis.io/security/autocad/autocad-vulnerability-disclosure/)
 
-**Human URL:** [https://forge.autodesk.com/en/docs/data/v2/developers_guide/overview/](https://forge.autodesk.com/en/docs/data/v2/developers_guide/overview/)
+#### OAuth scopes (1)
 
-#### Tags:
+The permissions the API asks for.
 
- - Collaboration, File Management, Storage, Version Control
+- [Autocad Scopes](https://apis.io/scopes/autocad/autocad-scopes/)
 
-### AutoCAD Model Derivative API
-API for translating AutoCAD design files into formats like SVF and SVF2 for rendering in the Viewer SDK.
+#### Plans and pricing (1)
 
-**Human URL:** [https://aps.autodesk.com/developer/overview/model-derivative-api](https://aps.autodesk.com/developer/overview/model-derivative-api)
+Published plans, tiers and prices.
 
-#### Tags:
+- [Autocad Plans Pricing](https://apis.io/plans/autocad/autocad-plans-pricing/)
 
- - File Conversion, Metadata, Model Derivative, Thumbnails, Translation
+#### Rate limits (1)
 
-### AutoCAD Webhooks API
-API enabling applications to listen for and receive notifications when specific events occur in AutoCAD data and workflows.
+Published request limits.
 
-**Human URL:** [https://aps.autodesk.com/developer/overview/webhooks-api](https://aps.autodesk.com/developer/overview/webhooks-api)
+- [Autocad Rate Limits](https://apis.io/rate-limits/autocad/autocad-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - Events, Notifications, Real-Time, Webhooks
+What the API costs to run, by operation.
 
-### AutoCAD Authentication API
-OAuth 2.0-based authentication API for securing access to AutoCAD and Autodesk Platform Services APIs.
+- [Autocad Finops](https://apis.io/finops/autocad/autocad-finops/)
 
-**Human URL:** [https://aps.autodesk.com/developer/overview/authentication-api](https://aps.autodesk.com/developer/overview/authentication-api)
+## Where to find this API
 
-#### Tags:
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
- - Authentication, Authorization, OAuth, Security
+- [Documentation](https://aps.autodesk.com/developer/documentation)
+- [Getting started](https://tutorials.autodesk.io/)
+- [Pricing](https://aps.autodesk.com/pricing)
+- [Support](https://forge.autodesk.com/en/support/)
+- [Changelog](https://aps.autodesk.com/topics/product-updates)
+- [Blog](https://aps.autodesk.com/blog)
+- [Terms of service](https://www.autodesk.com/company/legal-notices-trademarks/terms-of-service-autodesk360-web-services/forge-platform-web-services-api-terms-of-service)
+- [Privacy policy](https://www.autodesk.com/company/legal-notices-trademarks/privacy-statement)
+- [GitHub](https://github.com/autodesk-platform-services)
+- [Status](https://health.autodesk.com/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Cloud-Based Design Automation | Run AutoCAD scripts and add-ins in the cloud for batch processing without local AutoCAD installation. |
-| 3D Model Translation | Translate CAD files between formats and extract metadata for web-based viewing and analysis. |
-| File Version Management | Manage design file versions, revisions, and collaboration workflows through the Data Management API. |
-| Event-Driven Webhooks | Receive real-time notifications when design files are created, updated, or shared. |
-| OAuth 2.0 Authentication | Secure API access with 2-legged and 3-legged OAuth flows for application and user-level authorization. |
-| Web-Based Viewer | Embed 2D and 3D design viewers in web applications with the Viewer SDK. |
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-## Use Cases
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
 
-| Name | Description |
-|------|-------------|
-| Automated Drawing Generation | Generate construction drawings, floor plans, and engineering diagrams automatically using Design Automation API. |
-| Design File Collaboration | Build collaborative design workflows with file sharing, version control, and real-time notifications. |
-| Batch File Processing | Process thousands of CAD files in the cloud for format conversion, data extraction, and quality checks. |
-| BIM Integration | Integrate Building Information Modeling data with enterprise systems for construction project management. |
-| Custom CAD Applications | Build custom AutoCAD plugins and extensions using ObjectARX, .NET, AutoLISP, or JavaScript APIs. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Autodesk Construction Cloud | Integration with ACC for construction project management and design coordination. |
-| BIM 360 | Cloud-based BIM collaboration platform integration for construction workflows. |
-| Revit | Interoperability with Revit for architectural design and BIM workflows. |
-| Navisworks | Integration for 3D coordination, clash detection, and project review. |
-| Power BI | Data visualization integration for design analytics and project reporting. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AutoCAD: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autocad/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
